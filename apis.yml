@@ -1,7 +1,30 @@
 aid: stockly
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stockly.png
 name: Stockly
-description: Stockly is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Stockly (Stockly SAS, headquartered in Vitry-sur-Seine, France) operates a
+  global inventory network for e-commerce, positioning itself as "the first
+  global inventory for Retail." It connects online retailers that are missing
+  stock (Demanders) with brands and official retailers that hold surplus
+  inventory (Suppliers), detecting out-of-stock variants and filling the gaps
+  in real time so that e-shops never run out of stock. Stockly integrates
+  directly with a retailer's e-commerce infrastructure via API, a CMS, or a
+  marketplace, and is building toward a stock exchange for e-commerce inventory
+  in compliance with brands' distribution policies. The company reports 300+
+  partnered retailers across Europe and 100M+ available items, and is backed by
+  Techstars. Stockly is primarily a partner-onboarded platform rather than a
+  broad self-serve public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/stockly/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- E-Commerce
+- Retail
+- Inventory
+- Stock Management
+- Fulfillment
+- Marketplace
+- Supply Chain
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/stockly-domain-security.yml
 - type: Website
   url: https://stockly.ai/
+- type: Support
+  url: https://stockly.ai/contact
+- type: Blog
+  url: https://medium.com/@admin_31497
+- type: GitHubOrganization
+  url: https://github.com/Stockly
+- type: TermsOfService
+  url: https://stockly.ai/legal
+- type: PrivacyPolicy
+  url: https://stockly.ai/legal
+- type: LLMsTxt
+  url: llms/stockly-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

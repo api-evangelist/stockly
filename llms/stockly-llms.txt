@@ -1,0 +1,22 @@
+# Stockly
+
+> Stockly (Stockly SAS, Vitry-sur-Seine, France) operates a global inventory network for e-commerce — "the first global inventory for Retail." It connects e-shops that are missing stock (Demanders) with brands and official retailers that have surplus inventory (Suppliers), filling out-of-stock variants in real time so retailers never run out. Backed by Techstars. Integration is API-driven: Stockly connects to a demander's e-commerce infrastructure (via API, a CMS, or a marketplace) rather than exposing a broad public developer API.
+
+## About
+- Website: https://stockly.ai/
+- Demanders (e-shops needing inventory): https://stockly.ai/demanders
+- Suppliers (retailers/brands with surplus): https://stockly.ai/suppliers
+- Team: https://stockly.ai/team
+- Press: https://stockly.ai/press
+- Contact: https://stockly.ai/contact
+- Legal (Terms of Use + privacy + company registration): https://stockly.ai/legal
+
+## Content
+- Blog (Medium): https://medium.com/@admin_31497
+- GitHub organization: https://github.com/Stockly
+- Careers: https://www.welcometothejungle.com/fr/companies/stockly/jobs
+- LinkedIn: https://www.linkedin.com/company/stockly/
+
+## Notes
+- No public OpenAPI/AsyncAPI specification, published SDK, CLI, MCP server, or self-serve developer portal was found at the time of enrichment; the previously advertised developer docs host (api-packaging--prod.stockly.tech) does not resolve.
+- Integration model is partner-onboarded: "grant us access to your API, and we do the rest."
