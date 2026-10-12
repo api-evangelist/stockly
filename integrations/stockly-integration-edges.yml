@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/stockly/integrations
+- https://n8n.io/integrations/stockly/
+- https://composio.dev/toolkits/stockly
+- https://monid.ai/tools/stockly
+checked:
+- https://composio.dev/toolkits/stockly
+- https://monid.ai/tools/stockly
+- https://n8n.io/integrations/stockly/
+- https://zapier.com/apps/stockly/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
